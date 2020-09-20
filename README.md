@@ -1,0 +1,1 @@
+"# SampleBlazorAnd.NetCoreProject" 
