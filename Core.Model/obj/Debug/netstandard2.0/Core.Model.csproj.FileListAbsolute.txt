@@ -1,0 +1,9 @@
+E:\Blazor\EmployeeManagment\Core.Model\bin\Debug\netstandard2.0\Core.Model.deps.json
+E:\Blazor\EmployeeManagment\Core.Model\bin\Debug\netstandard2.0\Core.Model.dll
+E:\Blazor\EmployeeManagment\Core.Model\bin\Debug\netstandard2.0\Core.Model.pdb
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.csprojAssemblyReference.cache
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.AssemblyInfoInputs.cache
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.AssemblyInfo.cs
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.csproj.CoreCompileInputs.cache
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.dll
+E:\Blazor\EmployeeManagment\Core.Model\obj\Debug\netstandard2.0\Core.Model.pdb

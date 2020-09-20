@@ -1,0 +1,62 @@
+﻿
+@page "/"
+@inherits EmployeeListBase
+ 
+    <div class="section__content section__content--p30">
+        <div class="container-fluid">
+            <a class="myButton" href="@($"/editemployee/{0}")"><i class="fa fa-plus"></i>Add Employee</a>
+            <div class="row">
+                @if (Employees == null)
+                {
+                    <div class="loader"></div>
+                }
+                else
+                {
+                    @foreach (var item in Employees)
+                    {
+                        <div class="col-md-4">
+                            <div class="card div1">
+                                <div class="card-header">
+                                    <i class="fa fa-user"></i>
+                                    <strong class="card-title pr-2">@item.Code</strong>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mx-auto d-block">
+                                        <img class="rounded-circle mx-auto d-block" src="@item.PhotoPath"
+                                             alt="Card image cap" />
+                                        <h5 class="text-sm-center mt-2 mb-1"> @(item.FirstName + " " + item.LastName)</h5>
+                                        <div class="location text-sm-center">
+                                            <i class="fa email"></i> @item.Email
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="card-text-foot">
+                                        <p>@item.Department?.DeparmentName</p>
+                                        <p>@item.Gender</p>
+                                    </div>
+                                    <div class="btn-card-e">
+                                        <a class="item"
+                                           data-placement="top" title="View" href="@($"/employeedetails/{item.EmployeeId}")">
+                                            <i class="zmdi zmdi-eye"></i>
+                                        </a>
+                                        <a class="item"
+                                           data-placement="top" title="Edit" href="@($"/editemployee/{item.EmployeeId}")">
+                                            <i class="zmdi zmdi-edit"></i>
+                                        </a>
+                                        <a class="item del" data-placement="top" title="Delete" @onclick="@(e=> {  Delete_Item(item.EmployeeId); })"
+                                           data-original-title="Delete">
+                                            <i class="zmdi zmdi-delete"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    }
+
+                }
+
+            </div>
+        </div>
+    </div>

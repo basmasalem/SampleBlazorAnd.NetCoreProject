@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "AKmOJ4L1Zsywm5VXxFMh9OsLOXy8Vxk114lHJsjqBVZ0grJaIfNR02Re8+Fo7xlyRPO22JRXr952dP0g/u3JQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basma\\Source\\Repos\\SampleBlazorAnd.NetCoreProject\\Core.Web\\Core.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basma\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.7\\microsoft.aspnetcore.authorization.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.7\\microsoft.aspnetcore.components.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.7\\microsoft.aspnetcore.components.analyzers.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.7\\microsoft.aspnetcore.components.forms.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.7\\microsoft.aspnetcore.components.web.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.7\\microsoft.aspnetcore.metadata.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.7\\microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.extensions.options\\3.1.7\\microsoft.extensions.options.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.jsinterop\\3.1.7\\microsoft.jsinterop.3.1.7.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,48 @@
+﻿@page "/employeedetails/{id}"
+@inherits EmployeeDetailsBase
+
+<div class="section__content section__content--p30">
+    <div class="container-fluid">
+        <div class="row">
+            @if (Employee == null)
+            {
+                <div class="loader"></div>
+            }
+            else
+            {
+                <div class="col-md-4">
+                    <div class="card div1">
+                        <div class="card-header">
+                            <i class="fa fa-user"></i>
+                            <strong class="card-title pr-2">@Employee.Code</strong>
+                        </div>
+                        <div class="card-body">
+                            <div class="mx-auto d-block">
+                                <img class="rounded-circle mx-auto d-block" src="@Employee.PhotoPath"
+                                     alt="Card image cap" />
+                                <h5 class="text-sm-center mt-2 mb-1"> @(Employee.FirstName + " " + Employee.LastName)</h5>
+                                <div class="location text-sm-center">
+                                    <i class="fa email"></i> @Employee.Email
+                                </div>
+                            </div>
+                            <hr />
+                            <div class="card-text-foot">
+                                @*<p>@item.Department.DeparmentName</p>*@
+                                <p>@Employee.Gender</p>
+                            </div>
+                            <div class="btn-card-e">
+                                <a class="item"
+                                   data-placement="top" title="back" href="/">
+                                    <i class="zmdi zmdi-arrow-back"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            }
+        </div>
+    </div>
+</div>

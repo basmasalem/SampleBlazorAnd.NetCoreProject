@@ -1,0 +1,46 @@
+﻿@page "/editemployee/{id}"
+@inherits EditEmployeeBase
+
+<div class="section__content"  style="direction:ltr">
+    <div class="container-fluid">
+        <div class="form-group">
+            <EditForm Model="@editEmployeeModel" OnValidSubmit="@HandleValidSubmit" class="form-group">
+                <DataAnnotationsValidator />
+                <div class="form-group">
+                    <label for="FirstName">FirstName</label>
+                    <InputText id="FirstName" @bind-Value="editEmployeeModel.FirstName" class="form-control" />
+
+                </div>
+                <div class="form-group">
+                    <label for="LastName">LastName</label>
+                    <InputText id="LastName" @bind-Value="editEmployeeModel.LastName" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <InputText id="Email" @bind-Value="editEmployeeModel.Email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="DepartmentId">Department</label>
+                    <CustomSelectList @bind-Value="editEmployeeModel.DepartmentId" class="form-control">
+                        @foreach (var item in Departments)
+                        {
+                            <option value="@item.DepartmentId">@item.DeparmentName</option>
+                        }
+                    </CustomSelectList>
+                </div>
+                <div class="form-group">
+                    <label for="DepartmentId">Gender</label>
+                    <InputSelect @bind-Value="editEmployeeModel.Gender" class="form-control">
+                        @foreach (var item in Enum.GetValues(typeof( Core.Model.Gender)))
+                        {
+                            <option value="@item">@item</option>
+                        }
+                    </InputSelect>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </EditForm>
+
+        </div>
+    </div>
+</div>

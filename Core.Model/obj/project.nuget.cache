@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xy3DFkZCskhbKgSzdeVg9OjVb37OdxD9TP0rd3idHS6OgGRNbeoGjl1w2eqOx/V8VHbbujGEHdnUvnzCCaK9+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\basma\\Source\\Repos\\SampleBlazorAnd.NetCoreProject\\Core.Model\\Core.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\basma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\basma\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
